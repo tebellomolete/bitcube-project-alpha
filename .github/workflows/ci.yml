@@ -1,0 +1,21 @@
+name: CI Demo
+
+# The workflow must run automatically on at least one Git event
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  demo-job:
+    # This uses a virtual Linux environment to run the tasks
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Download your code onto the runner
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: An automated command execution
+      - name: Run demo command
+        run: echo "CI is running"
