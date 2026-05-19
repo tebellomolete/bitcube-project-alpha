@@ -1,5 +1,0 @@
-# Assignment 1.4: Basic CI Automation Explanation
-
-The implemented GitHub Actions workflow is a foundational Continuous Integration (CI) tool designed to automate repetitive tasks within the software development lifecycle. Triggered automatically by Git events—specifically when code is pushed or a pull request is opened—it ensures that every change to the codebase is immediately validated in a clean, virtual environment.
-
-The primary function of this automation is to execute a predefined set of commands—such as checking out the repository and running a demo script—on a hosted Linux runner. This process is vital for professional teams because it enforces consistency across different development environments. By catching errors early through "fast feedback," automation prevents broken code from being merged into the main branch, which saves time during the debugging phase. Ultimately, this workflow establishes a reliable baseline for the project, ensuring that the software remains in a functional state as new features are added.
