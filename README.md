@@ -1,23 +1,40 @@
-# Bitcube Project Alpha
-This project serves as a top-secret internal tool called "Project Alpha".
+# Conference Room Booking System
 
-## Developer Onboarding (In Progress)
-This project is created increamentally as part of a professional training program
-
-The Purpose of this section is to help new contributors understand:
-- What this system is intended to become
-- How documentation is organised
-- Where to find key project artefacts
-As the system evolves, this section will be expanded with concrete setup and usage instructions
-
-## System Context
+## 1. Project Overview
+This project is for employees and administrators for:
+- Room bookings
+- Booking cancellations
 - Room availability
 - Conflict Resolution
 - Administrative oversight
 
-At this stage, the system is documented through:
-- Review summaries
+## 2. System Context & Architecture
+* **Frontend:** React JS
+* **Backend:** Node.js & Express JS
+* **Database:** PostgreSQL
 
-## Project Documentation
-// Add links to existing documentation
-// e.g. link to sprint-summary.md
+## 3. Developer Onboarding & Getting Started
+### Prerequisites
+* Node.js (v18+ recommended)
+* PostgreSQL
+* Git
+
+### Installation & Setup
+1. Clone the repository.
+2. Run `npm install` in both the root/backend and frontend directories.
+3. Configure your environment variables (see `.env.example` placeholder).
+4. Run database migrations.
+5. Start the development servers using `npm run dev`.
+
+## 4. Repository Structure & Key Artefacts
+* `/src/client` - React frontend application.
+* `/src/server` - Express backend API.
+* `/docs` - Contains sprint documentation and system design markdown files.
+
+## 5. Contribution Workflow
+* **Branching Strategy:** Create feature branches off `main` (e.g., `feature/feature-name`).
+* **Pull Requests:** All changes must be introduced via a Pull Request. Direct commits to `main` are restricted. PRs require at least one peer review.
+
+## 6. Future Technical Roadmap [Placeholder]
+* [CI/CD Pipeline Setup]
+* [Automated Testing Suite Integration]
